@@ -9,81 +9,109 @@
 
 <body>
 
+
+<!-- BANNER SECTION -->
+
+<!--   <div class="banner">
+    <div class="perspective-text">
+      <div class="perspective-line">
+        <p></p>
+        <p>Lose</p>
+      </div>
+      <div class="perspective-line">
+        <p>Lose</p>
+        <p>Focus</p>
+      </div>
+      <div class="perspective-line">
+        <p>Focus</p>
+        <p>Fall</p>
+      </div>
+      <div class="perspective-line">
+        <p>Fall</p>
+        <p>Down</p>
+      </div>
+      <div class="perspective-line">
+        <p>Down</p>
+        <p></p>
+      </div>
+    </div>
+  </div> -->
+
 <!-- NAVBAR SECTION -->
 
   <div class="navbar">
     <h1 style = "text-transform:uppercase;">Portfolio.</h1>
     <div class="navbar-tabs">
-      <a href="">
+      <a class="navbar-tab active" href="">
         <h2>Projects.</h2>
       </a>
-      <a href="">
+      <a class="navbar-tab" href="">
         <h2>About.</h2>
       </a>
-      <a href="">
-        <h2>Contact.</h2>
+      <a class="navbar-tab" href="">
+        <h2 class="navbar-button">Contact.</h2>
       </a>
 
     </div>
   </div>
 
-<!-- BANNER SECTION -->
 
-  <div class="banner">
-    <h1>Hi! I’m Vincent, a young front-end developer and web designer  </h1>
-    <p>This website is  a picture of where I am now from a professional point of view. </p>
-  </div>
+<!-- PROJECT SECTION 1 -->
 
-<!-- PROJECT SECTION -->
-
-  <div class="project section-one">
+  <div class="project-one">
     <div class="project-card">
-      <div class="card-one">
-        <a href="">
-          <h2>01</h2>
-          <img src="" alt="">
-          <p>Ruby Project in a 5 buddies team </p>
-        </a>
+      <div class="cards">
+        <div class="card card-one">
+          <a href="">
+            <h2>01</h2>
+            <img src="img/skatrr.png" alt="">
+            <p>Ruby Project in a 5 buddies team </p>
+          </a>
+        </div>
+        <div class="card card-two">
+          <a href="">
+            <h2>02</h2>
+            <img src="img/skatrr.png" alt="">
+            <p>Small React Project to get used to the framework</p>
+          </a>
+        </div>
       </div>
-      <div class="card-two">
-        <a href="">
-          <h2>02</h2>
-          <img src="" alt="">
-          <p>Small React Project to get used to the framework</p>
-        </a>
-      </div>
-    </div>
-
-    <div class="project-description description-one">
-      <hr>
-      <p>I started learning how to code in summer 2020. I learned in Le Wagon bootcamp basis of web programmation, from back-end  (Ruby)to front-end (HTML/CSS/JS). I discovered how to work in a developer team with versioning tools. I also learned effective communication and can apply it into future projects. For the moment I am focused on front-end development. I work on side projects to improve my JavaScript and ReactJS skills.</p>
-    </div>
-    <div class="project-button">
+      <div class="project-button">
       <a href="https://github.com/Vincentclr?tab=repositories">
         <h2>View all GitHub repositories</h2>
       </a>
     </div>
+    </div>
+
+    <div class="project-description description-one">
+      <hr>
+      <p>I started learning how to code in summer 2020. <br> <br> I learned in Le Wagon bootcamp basis of web programmation, from back-end  (Ruby)to front-end (HTML/CSS/JS). <br> <br> I discovered how to work in a developer team with versioning tools. I also learned effective communication and can apply it into future projects.<br><br>For the moment I am focused on front-end development. I work on side projects to improve my JavaScript and ReactJS skills.</p>
+    </div>
   </div>
 
-  <div class="project section-two">
+<!-- PROJECT SECTION 2 -->
+
+  <div class="project-two">
     <div class="project-description description-two">
       <hr>
-      <p>I feel deeply enthousiast by creating aesthetic web designs  and nice experiences for users.  I have started to explore and learn by myself core concepts of UX/UI Design.  Programming also makes me being more realistic and simple when working on design projects. I am fascinated by 3d animations and content. I played a bit with some CSS/SASS. Check it out!</p>
+      <p>I feel deeply enthousiast by creating aesthetic web designs and nice experiences for users.   <br> <br> I have started to explore and learn by myself core concepts of UX/UI Design. Programming also makes me being more realistic and simple when working on design projects. <br> <br> I am fascinated by 3d animations and content. I played a bit with some CSS/SASS. Check it out!</p>
     </div>
     <div class="project-card">
-      <div class="card-three">
-        <a href="">
-          <h2>03</h2>
-          <img src="" alt="">
-          <p>Pure CSS Sphere Levitating</p>
-        </a>
-      </div>
-      <div class="card-four">
-        <a href="">
-          <h2>04</h2>
-          <img src="" alt="">
-          <p>Skatrr prototype Figma App</p>
-        </a>
+      <div class="cards">
+        <div class="card card-three">
+          <a href="">
+            <h2>03</h2>
+            <img src="img/skatrr.png" alt="">
+            <p>Pure CSS Sphere Levitating</p>
+          </a>
+        </div>
+        <div class="card card-four">
+          <a href="">
+            <h2>04</h2>
+            <img src="img/skatrr.png" alt="">
+            <p>Skatrr prototype Figma App</p>
+          </a>
+        </div>
       </div>
     </div>
   </div>
@@ -91,17 +119,16 @@
 <!-- ABOUT SECTION -->
 
   <div class="about">
-    <img src="" alt="">
-    <div class="about-description">
-      <hr>
-      <p>I’m Vincent, a french young man freshly graduated. My ambitions are to start my own business companies. I appreciate every form of creation, from company to art. What I like in the creation process is the excitment, the energy to give a form and direction to an idea and grow with it. Now, I feel like I need more experience first. I am seeking jobs in project development or product management in a dynamic environment, but also in web development and web design. If some of you are familiar with Japanese culture and the 5 Ikigaï pillars (which I recommend you to apply on your daily life), one of them is to “start small”. I know everyone need to start somewhere, somehow. I would be pleased to be part of a project or responsible for it. If you are looking for a nice team-player and eager to learn, <a href="">get in touch!</a></p>
-    </div>
-    <div class="cv-button">
-      <a href="">
-        <h3>Download CV</h3>
-      </a>
-    </div>
-
+    <img src="img/profile-picture.jpg" alt="">
+      <div class="about-description">
+        <hr>
+        <p>I’m Vincent, a french young man freshly graduated. My ambitions are to start my own business companies. I appreciate every form of creation, from company to art. What I like in the creation process is the excitment, the energy to give a form and direction to an idea and grow with it. <br><br> Now, I feel like I need more experience first. I am seeking jobs in project development or product management in a dynamic environment, but also in web development and web design. <br><br>If some of you are familiar with Japanese culture and the 5 Ikigaï pillars (which I recommend you to apply on your daily life), one of them is to “start small”. I know everyone need to start somewhere, somehow. I would be pleased to be part of a project or responsible for it. <br><br> If you are looking for a nice team-player and eager to learn, <a href="">get in touch!</a></p>
+        <div class="cv-button">
+          <a href="">
+            <h3>Download CV</h3>
+          </a>
+        </div>
+      </div>
   </div>
 
 <!-- HIRE SECTION -->
