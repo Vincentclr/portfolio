@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  color: white;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+}
+
+.navbar h1 {
+  font-family: 'Abril Fatface', cursive;
+  display: flex;
+  align-items: center;
+  margin-left: 24px;
+}
+
+.navbar-tabs {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 300px;
+  font-family: 'Abhaya Libre', serif;
+}
