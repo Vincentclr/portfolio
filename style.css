@@ -152,7 +152,7 @@ p {
 .project-description {
   width: 40%;
   text-align: justify;
-  text-justify: inter-word;
+  hyphens: auto;
 }
 
 .project-description hr {
@@ -173,7 +173,7 @@ p {
   padding: 12px 24px;
   box-shadow: 1px 1px 1px white;
   border-radius: 12px;
-  height: 250px;
+  height: 290px;
 }
 
 .card img {
@@ -206,7 +206,7 @@ p {
   color: white;
   margin-top: 30px;
   margin-left: 60px;
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'Abhaya Libre', serif;
 }
 
 .project-two {
@@ -234,7 +234,7 @@ p {
 .about-description {
   width: 40%;
   text-align: justify;
-  text-justify: inter-word;
+  hyphens: auto;
   font-family: 'DM Sans', sans-serif;
   display: flex;
   flex-direction: column;
@@ -254,13 +254,94 @@ p {
 }
 
 .about-description h3 {
-  font-size: 24px;
+  font-size: 30px;
+  font-family: 'Abhaya Libre', serif;
 }
 
 /* HIRE STYLE */
 
+.hire-me-iam-fantastic {
+  background: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  padding: 20px;
+}
+
+.hire-me-iam-fantastic h2 {
+  font-family: 'Abhaya Libre', serif;
+  margin: 60px;
+}
+
+.reason-cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+  width: 80%;
+}
+}
+
+.reason-card {
+  font-family: 'DM Sans', sans-serif;
+}
+
+.reason-card h3 {
+  font-family: 'Abhaya Libre', serif;
+  margin: 12px;
+}
+
+.reason-card p {
+  font-family: 'DM Sans', sans-serif;
+  text-align: justify;
+  hyphens: auto;
+  width: 200px;
+}
+
+.reason-card hr {
+  border: solid 1px #FFE23B;
+  width: 70px;
+}
+
 /* CONTACT STYLE */
 
+.contact {
+  width: 100%;
+  height: 216px;
+  background: #FFE23B;
+  color: black;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
 
+.work {
+  width: 80%;
+  margin-left: 130px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: 'DM Sans', sans-serif;
+}
 
+.contact a {
+  text-decoration: none;
+  color: black;
+}
 
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'DM Sans', sans-serif;
+  width: 80%;
+  margin-left: 130px;
+}
+
+.social {
+  display: flex;
+  width: 300px;
+}
