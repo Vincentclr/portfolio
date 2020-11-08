@@ -12,38 +12,40 @@
 
   <div class="navbar">
     <h1 style = "text-transform:uppercase;">Portfolio.</h1>
-    <div class="navbar-tabs">
-      <a class="navbar-tab active" href="">
-        <h2>Projects.</h2>
-      </a>
-      <a class="navbar-tab" href="">
-        <h2>About.</h2>
-      </a>
-      <a class="navbar-tab" href="">
-        <h2 class="navbar-button">Contact.</h2>
-      </a>
-
+    <div class="navbar-tabs" id="active-nav">
+      <ul>
+        <li>
+          <a class="navbar-tab active" href=""></a>
+        </li>
+        <li>
+          <a class="navbar-tab" href="#nav-project">Projects</a>
+        </li>
+        <li>
+          <a class="navbar-tab" href="#nav-about">About</a>
+        </li>
+      </ul>
+          <a class="navbar-button" href="mailto:vincentclair@hotmail.fr">Contact</a>
     </div>
   </div>
 
 <!-- BANNER SECTION -->
 
-<div class="container">
-   <h1>Hi there, welcome!</h1>
+<div class="banner">
+   <h1>Hi, I'm Vincent <br> welcome!</h1>
 <div class="overlay"></div>
 </div>
 
 <!-- PROJECT SECTION -->
 
   <!-- PROJECT SECTION 1 -->
-  <div class="projects">
+  <div class="projects" id="nav-project">
     <div class="project">
       <div class="project-cards">
         <div class="project-card">
           <a href="">
               <h2>01</h2>
               <img src="img/skatrr.png" alt="">
-              <p>Ruby Project in a 5 buddies team </p>
+              <p>Ruby on Rails Project in a 5 buddies team </p>
             </a>
         </div>
         <div class="project-card">
@@ -57,7 +59,7 @@
       <div class="project-description">
         <hr>
         <p>I started learning how to code in summer 2020. <br> <br> I learned in Le Wagon bootcamp basis of web programmation, from back-end  (Ruby)to front-end (HTML/CSS/JS). <br> <br> I discovered how to work in a developer team with versioning tools. I also learned effective communication and can apply it into future projects.<br><br>For the moment I am focused on front-end development. I work on side projects to improve my JavaScript and ReactJS skills.</p>
-         <a href="https://github.com/Vincentclr?tab=repositories">
+         <a href="https://github.com/Vincentclr?tab=repositories" target="_blank">
           <h3>View all GitHub repositories</h3>
         </a>
       </div>
@@ -90,14 +92,14 @@
 
 <!-- ABOUT SECTION -->
 
-  <div class="about">
+  <div class="about" id="nav-about">
     <div class="about-content">
       <img src="img/profile-picture.jpg" alt="">
-      <div class="about-description">
+      <div class="about-description" >
         <hr>
         <p>I’m Vincent, a french young man freshly graduated. My ambitions are to start my own business companies. I appreciate every form of creation, from company to art. What I like in the creation process is the excitment, the energy to give a form and direction to an idea and grow with it. <br><br> Now, I feel like I need more experience first. I am seeking jobs in project development or product management in a dynamic environment, but also in web development and web design. <br><br>If some of you are familiar with Japanese culture and the 5 Ikigaï pillars (which I recommend you to apply on your daily life), one of them is to “start small”. I know everyone need to start somewhere, somehow. I would be pleased to be part of a project or responsible for it. <br><br> If you are looking for a nice team-player and eager to learn, <a href="">get in touch!</a></p>
         <div class="cv-button">
-          <a href="">
+          <a href="img/vincent-clair-curriculum-vitae.png" download="Vincent Clair CV">
             <h3>Download CV</h3>
           </a>
         </div>
@@ -108,7 +110,16 @@
 <!-- HIRE SECTION -->
 
   <div class="hire-me-iam-fantastic">
-    <h2>3 reasons to hire me</h2>
+    <div class="text">
+      <p>3 reasons to</p>
+      <p>
+        <span class="word contact-me">contact me.</span>
+        <span class="word meet-me">meet me.</span>
+        <span class="word hire-me">hire me.</span>
+        <span class="word work-with-me">work with me.</span>
+      </p>
+    </div>
+
     <div class="reason-cards">
       <div class="reason-card">
         <hr>
@@ -131,24 +142,21 @@
 <!-- CONTACT SECTION -->
 
   <div class="contact">
-    <div class="work">
-      <h3>Let's work together</h3>
-      <a href="">
-        <p>vincentclair@hotmail.fr</p>
-      </a>
-    </div>
     <div class="footer">
       <div class="social">
-        <a href="">
+        <a href="https://www.linkedin.com/in/vincent-clair-2398a5136/" target="_blank">
           <p>LinkedIn</p>
         </a>
-        <a href="">
+        <a href="https://github.com/Vincentclr" target="_blank">
           <p>GitHub</p>
         </a>
       </div>
       <p>Designed and coded with ❤️ by Vincent Clair © 2020</p>
     </div>
   </div>
+
+<script src="nav.js"></script>
+<script src="word.js"></script>
 
 </body>
 </html>
