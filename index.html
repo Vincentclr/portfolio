@@ -8,10 +8,13 @@
 </head>
 
 <body>
+
 <!-- NAVBAR SECTION -->
 
   <div class="navbar">
-    <h1 style = "text-transform:uppercase;">Portfolio.</h1>
+    <a class="navbar-name" href="#navbar-title">
+      <h1 style = "text-transform:uppercase;">Portfolio.</h1>
+    </a>
     <div class="navbar-tabs" id="active-nav">
       <ul>
         <li>
@@ -30,7 +33,7 @@
 
 <!-- BANNER SECTION -->
 
-<div class="banner">
+<div class="banner" id="navbar-title">
    <h1>Hi, I'm Vincent <br> welcome!</h1>
 <div class="overlay"></div>
 </div>
@@ -41,19 +44,11 @@
   <div class="projects" id="nav-project">
     <div class="project">
       <div class="project-cards">
-        <div class="project-card">
-          <a href="">
-              <h2>01</h2>
-              <img src="img/skatrr.png" alt="">
-              <p>Ruby on Rails Project in a 5 buddies team </p>
-            </a>
-        </div>
-        <div class="project-card">
-          <a href="">
-            <h2>02</h2>
-            <img src="img/skatrr.png" alt="">
-            <p>Small React Project to get used to the framework</p>
-          </a>
+        <div class="card">
+          <div class="card-content">
+            <h1>Just hover around</h1>
+            <p>Wow!</p>
+          </div>
         </div>
       </div>
       <div class="project-description">
@@ -72,19 +67,12 @@
         <p>I feel deeply enthousiast by creating aesthetic web designs and nice experiences for users.   <br> <br> I have started to explore and learn by myself core concepts of UX/UI Design. Programming also makes me being more realistic and simple when working on design projects. <br> <br> I am fascinated by 3d animations and content. I played a bit with some CSS/SASS. Check it out!</p>
       </div>
       <div class="project-cards">
-        <div class="project-card">
-          <a href="">
-              <h2>03</h2>
-              <img src="img/skatrr.png" alt="">
-              <p>Pure CSS Sphere Levitating</p>
-            </a>
-        </div>
-        <div class="project-card">
-          <a href="">
-            <h2>04</h2>
-            <img src="img/skatrr.png" alt="">
-            <p>Skatrr prototype Figma App</p>
-          </a>
+        <div class="card">
+          <div class="card-content">
+            <h1>Just hover around</h1>
+            <p><small>by <a href="https://www.fiverr.com/share/vLevr" target="_blank">Ariona, Rian</a></small></p>
+            <p class="related"><strong>See also: </strong><a href="https://codepen.io/ariona/details/LVZLGP/" target="_blank">Staged dropdown animation</a></p>
+          </div>
         </div>
       </div>
     </div>
@@ -157,6 +145,7 @@
 
 <script src="nav.js"></script>
 <script src="word.js"></script>
+<script src="card.js"></script>
 
 </body>
 </html>
