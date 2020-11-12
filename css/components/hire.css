@@ -1,0 +1,81 @@
+.hire-me-iam-fantastic {
+  background: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  padding: 20px;
+}
+
+.hire-me-iam-fantastic .text {
+  font-family: 'DM Sans', sans-serif;
+  margin: 60px;
+}
+
+.text {
+    position: relative;
+    width: 600px;
+    left: -5%;
+    height: 70px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.text p {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0;
+}
+
+.reason-cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+  width: 80%;
+}
+
+
+.reason-card {
+  font-family: 'DM Sans', sans-serif;
+}
+
+.reason-card h3 {
+  font-family: 'DM Sans', sans-serif;
+  margin: 12px;
+}
+
+.reason-card p {
+  font-family: 'DM Sans', sans-serif;
+  text-align: justify;
+  hyphens: auto;
+  width: 200px;
+}
+
+.reason-card hr {
+  border: solid 1px #FFE23B;
+  width: 70px;
+}
+
+@media screen and (max-width: 767px) {
+/* start of medium tablet styles */
+
+}
+
+@media screen and (max-width: 850px) {
+/* start of phone styles */
+  .reason-cards {
+     display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+    width: 80%;
+    flex-direction: column;
+    align-items: center;
+    height: 600px;
+  }
+  .reason-card p {
+    width: 383px;
+    font-size: 14px;
+  }
+}

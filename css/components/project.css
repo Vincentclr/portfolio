@@ -1,0 +1,93 @@
+.project-container {
+  perspective: 660px;
+  width: 90%;
+  height: auto;
+  margin: 0 auto 100px;;
+  background-image: black;
+  overflow: hidden;
+}
+
+.project-container h4 {
+  color: white;
+  font-family: 'DM SANS';
+  text-align: center;
+  width: 100%;
+  font-size:12px;
+}
+
+.project-one {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  margin: 80px auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.project-two {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  margin: 80px auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.project-description {
+  text-align: justify;
+  hyphens: auto;
+}
+
+.project-description hr {
+  border: solid 1px #FFE23B;
+  width: 70px;
+  margin-bottom: 12px;
+  margin-left: 20px;
+}
+
+.project-description p {
+  font-family: 'DM SANS';
+  width: 300px;
+  position: relative;
+  color: white;
+  margin: 20px;
+  font-size: 14px;
+}
+
+.project-description a {
+  text-decoration: none;
+  color: white;
+  margin-top: 30px;
+  margin-left: 60px;
+  font-family: 'DM SANS';
+  margin: 20px;
+}
+
+.project-description h3 {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 767px) {
+/* start of medium tablet styles */
+
+}
+
+@media screen and (max-width: 850px) {
+/* start of phone styles */
+  .project-one {
+    height: 757px;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  .project-two {
+    height: 828px;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  .project-description p {
+    width: 383px;
+  }
+}
