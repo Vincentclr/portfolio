@@ -3,12 +3,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Vincent Clair</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
   <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;600&family=Abril+Fatface&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-
 <!-- NAVBAR SECTION -->
 
   <div class="navbar">
@@ -33,46 +32,54 @@
 
 <!-- BANNER SECTION -->
 
-<div class="banner" id="navbar-title">
-   <h1>Hi, I'm Vincent <br> welcome!</h1>
-<div class="overlay"></div>
-</div>
+  <div class="banner" id="navbar-title">
+    <h1>Hi, I'm Vincent <br> welcome!</h1>
+    <div class="overlay"></div>
+  </div>
 
 <!-- PROJECT SECTION -->
-
-  <!-- PROJECT SECTION 1 -->
-  <div class="projects" id="nav-project">
-    <div class="project">
-      <div class="project-cards">
-        <div class="card">
-          <div class="card-content">
-            <h1>Just hover around</h1>
-            <p>Wow!</p>
+  <div class="project-container" id="nav-project">
+<!-- PROJECT SECTION 1 -->
+    <div class="project-one" >
+        <div class="wrapper">
+          <div class="card">
+            <div class="link-button-hover">
+              <a href="https://github.com/Vincentclr?tab=repositories" target="_blank">
+                <h1>
+                  Code <br><span class="enclosed">projects</span>
+                </h1>
+              </a>
+            </div>
           </div>
         </div>
-      </div>
       <div class="project-description">
         <hr>
         <p>I started learning how to code in summer 2020. <br> <br> I learned in Le Wagon bootcamp basis of web programmation, from back-end  (Ruby)to front-end (HTML/CSS/JS). <br> <br> I discovered how to work in a developer team with versioning tools. I also learned effective communication and can apply it into future projects.<br><br>For the moment I am focused on front-end development. I work on side projects to improve my JavaScript and ReactJS skills.</p>
-         <a href="https://github.com/Vincentclr?tab=repositories" target="_blank">
-          <h3>View all GitHub repositories</h3>
-        </a>
+        <div class="link-button-hover">
+          <a href="https://github.com/Vincentclr?tab=repositories" target="_blank">
+            <h3>View all GitHub repositories</h3>
+          </a>
+        </div>
       </div>
     </div>
 
-    <!-- PROJECT SECTION 2 -->
-    <div class="project">
+    <h4>Hover to restructure</h4>
+
+<!-- PROJECT SECTION 2 -->
+    <div class="project-two">
       <div class="project-description">
         <hr>
         <p>I feel deeply enthousiast by creating aesthetic web designs and nice experiences for users.   <br> <br> I have started to explore and learn by myself core concepts of UX/UI Design. Programming also makes me being more realistic and simple when working on design projects. <br> <br> I am fascinated by 3d animations and content. I played a bit with some CSS/SASS. Check it out!</p>
       </div>
-      <div class="project-cards">
+      <div class="wrapper">
         <div class="card">
-          <div class="card-content">
-            <h1>Just hover around</h1>
-            <p><small>by <a href="https://www.fiverr.com/share/vLevr" target="_blank">Ariona, Rian</a></small></p>
-            <p class="related"><strong>See also: </strong><a href="https://codepen.io/ariona/details/LVZLGP/" target="_blank">Staged dropdown animation</a></p>
-          </div>
+          <div class="link-button-hover">
+              <a href="https://github.com/Vincentclr?tab=repositories" target="_blank">
+                <h1>
+                  UX/UI<br><span class="enclosed">projects</span>
+                </h1>
+              </a>
+            </div>
         </div>
       </div>
     </div>
@@ -85,8 +92,8 @@
       <img src="img/profile-picture.jpg" alt="">
       <div class="about-description" >
         <hr>
-        <p>I’m Vincent, a french young man freshly graduated. My ambitions are to start my own business companies. I appreciate every form of creation, from company to art. What I like in the creation process is the excitment, the energy to give a form and direction to an idea and grow with it. <br><br> Now, I feel like I need more experience first. I am seeking jobs in project development or product management in a dynamic environment, but also in web development and web design. <br><br>If some of you are familiar with Japanese culture and the 5 Ikigaï pillars (which I recommend you to apply on your daily life), one of them is to “start small”. I know everyone need to start somewhere, somehow. I would be pleased to be part of a project or responsible for it. <br><br> If you are looking for a nice team-player and eager to learn, <a href="">get in touch!</a></p>
-        <div class="cv-button">
+        <p>My name is Vincent, a french young man freshly graduated. My ambitions are to start my own business companies. I appreciate every form of creation, from company to art. What I like in the creation process is the excitment, the energy to give a form and direction to an idea and grow with it. <br><br> Now, I feel like I need more experience first. I am seeking jobs in project development or product management in a dynamic environment, but also in web development and web design. <br><br>If some of you are familiar with Japanese culture and the 5 Ikigaï pillars (which I recommend you to apply on your daily life), one of them is to “start small”. I know everyone need to start somewhere, somehow. I would be pleased to be part of a project or responsible for it. <br><br> If you are looking for a nice team-player and eager to learn, <a href="">get in touch!</a></p>
+        <div class="link-button-hover">
           <a href="img/vincent-clair-curriculum-vitae.png" download="Vincent Clair CV">
             <h3>Download CV</h3>
           </a>
@@ -143,9 +150,8 @@
     </div>
   </div>
 
-<script src="nav.js"></script>
-<script src="word.js"></script>
-<script src="card.js"></script>
+<script src="js/nav.js"></script>
+<script src="js/word.js"></script>
 
 </body>
 </html>
