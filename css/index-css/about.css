@@ -48,6 +48,10 @@
   font-family: 'DM Sans', sans-serif;
   padding-top: 87px;
   text-align: center;
+  color: black;
+}
+
+.about-description {
   color: #494949;
 }
 

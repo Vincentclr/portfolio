@@ -1,0 +1,84 @@
+.ruby-code-project {
+  width: 90%;
+  height: auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: solid 1px white;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.ruby-code-project img {
+  width: 300px;
+  height: auto;
+}
+
+.ruby-project-text {
+  font-family: DM Sans, sans-serif;
+  font-size: 14px;
+  overflow: hidden;
+  text-align: justify;
+  hyphens: auto;
+  width: 50%;
+}
+
+.description-project {
+  margin: 12px 0;
+}
+
+.description-project hr {
+  border: solid 1px #FFE23B;
+  width: 70px;
+}
+
+.skills ul {
+/*  display: flex;
+  justify-content: space-around;*/
+  list-style-type: none;
+}
+
+.skills ul li {
+  padding: 0 12px;
+  list-style-type: none;
+  display: inline;
+}
+
+.react-code-project {
+  width: 90%;
+  height: auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: solid 1px white;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.react-code-project img {
+  width: 300px;
+  height: auto;
+}
+
+.react-project-text {
+  font-family: DM Sans, sans-serif;
+  font-size: 14px;
+  overflow: hidden;
+  text-align: justify;
+  hyphens: auto;
+  width: 50%;
+}
+
+.css-animations {
+  width: 90%;
+  height: auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: solid 1px white;
+  box-sizing: border-box;
+  margin: 0 auto;
+}

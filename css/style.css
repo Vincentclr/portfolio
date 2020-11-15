@@ -1,12 +1,16 @@
-@import url("components/about.css");
-@import url("components/banner.css");
+@import url("index-css/about.css");
+@import url("index-css/banner.css");
+@import url("index-css/project.css");
+@import url("index-css/hire.css");
 @import url("components/button.css");
 @import url("components/card.css");
 @import url("components/footer.css");
-@import url("components/hire.css");
 @import url("components/navbar.css");
-@import url("components/project.css");
 @import url("components/word.css");
+@import url("components/dropdown-button.css");
+@import url("code-css/sub-navbar-code.css");
+@import url("code-css/banner-code.css");
+@import url("code-css/project-code.css");
 
 * {
   margin: 0;
@@ -20,4 +24,5 @@ body {
   background: black;
   scroll-behavior: smooth;
   height: 100vh;
+  color:white;
 }

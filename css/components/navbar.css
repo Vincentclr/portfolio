@@ -8,7 +8,7 @@
   position: sticky;
   top: 0;
   overflow: hidden;
-  z-index:2 ;
+  z-index:2;
 }
 
 .navbar h1 {
@@ -68,7 +68,7 @@
 
 .navbar-button {
   border: solid #FFE23B 1px;
-  border-radius: 20px;
+  border-radius: 15px;
   padding: 8px 12px;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
@@ -77,7 +77,7 @@
 }
 
 .navbar-button:hover {
-  -webkit-transform: scale(1.1);
+  -webkit-transform: scale(1.2);
   transform: scale(1.2);
 }
 
@@ -98,7 +98,6 @@
   }
   .navbar-tabs {
     width: 300px;
-
   }
 
 }
