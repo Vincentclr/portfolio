@@ -1,13 +1,12 @@
 .ruby-code-project {
-  width: 90%;
+  width: 100%;
   height: auto;
   padding: 20px;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  border: solid 1px white;
   box-sizing: border-box;
-  margin: 0 auto;
+  margin: 180px auto 90px;
 }
 
 .ruby-code-project img {
@@ -19,13 +18,19 @@
   font-family: DM Sans, sans-serif;
   font-size: 14px;
   overflow: hidden;
-  text-align: justify;
-  hyphens: auto;
   width: 50%;
 }
 
 .description-project {
   margin: 12px 0;
+  text-align: justify;
+  hyphens: auto;
+}
+
+.description-project a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
 }
 
 .description-project hr {
@@ -33,28 +38,28 @@
   width: 70px;
 }
 
-.skills ul {
-/*  display: flex;
-  justify-content: space-around;*/
-  list-style-type: none;
-}
-
-.skills ul li {
-  padding: 0 12px;
-  list-style-type: none;
-  display: inline;
+.skill-tag {
+  display: inline-block;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  padding-top: .5rem;
+  padding-right: 1.5rem;
+  padding-bottom: .5rem;
+  padding-left: 1.5rem;
+  background-color: #FFE23B;
+  border-radius: 50rem;
+  color: black;
 }
 
 .react-code-project {
-  width: 90%;
+  width: 100%;
   height: auto;
   padding: 20px;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  border: solid 1px white;
   box-sizing: border-box;
-  margin: 0 auto;
+  margin: 90px auto 90px;
 }
 
 .react-code-project img {
@@ -71,15 +76,139 @@
   width: 50%;
 }
 
+.button-repo-ruby a {
+  text-decoration: none;
+  color: white;
+}
+
+.button-repo-react a {
+  text-decoration: none;
+  color: white;
+}
+
 .css-animations {
-  width: 90%;
+  width: 100%;
   height: auto;
   padding: 20px;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  border: solid 1px white;
   box-sizing: border-box;
-  margin: 0 auto;
+  margin: 90px auto 140px;
   font-family: DM Sans, sans-serif;
 }
+
+
+.animations-text {
+  font-family: DM Sans, sans-serif;
+  font-size: 14px;
+  overflow: hidden;
+  text-align: justify;
+  hyphens: auto;
+  width: 50%;
+}
+
+.logo-animations {
+  width: 300px;
+  height: 125px;
+  text-align: center;
+}
+
+.logo-animations span{
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+  transform: translate(-50%, -50%);
+  font-size:60px;
+  letter-spacing:0.1em;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: white;
+  text-shadow:
+            8px 8px #ff1f8f,
+            20px 20px #303030;
+}
+
+.logo-animations #animation-span {
+  font-size: 30px;
+}
+
+.arrow{
+  position: relative;
+  top: 0%;
+  left: 50%;
+  width: 120px;
+  height: 250px;
+  padding-left: 20px;
+}
+.arrow span{
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-bottom: 5px solid #FFE23B;
+    border-right: 5px solid #FFE23B;
+    transform: rotate(45deg);
+    margin: -10px;
+    animation: animate 2s infinite;
+}
+.arrow span:nth-child(2){
+    animation-delay: -0.2s;
+}
+.arrow span:nth-child(3){
+    animation-delay: -0.4s;
+}
+@keyframes animate {
+    0%{
+        opacity: 0;
+        transform: rotate(45deg) translate(-20px,-20px);
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        transform: rotate(45deg) translate(20px,20px);
+    }
+}
+
+.word-carousel .word-carousel-list div {
+  overflow: hidden;
+  position: relative;
+  float: right;
+  height: 65px;
+  padding-top: 10px;
+  margin-top: -10px;
+}
+
+.word-carousel .word-carousel-list li {
+  font-family: DM Sans, sans-serif;
+  color: #ccc;
+  font-weight: 700;
+  padding: 0 10px;
+  height: 45px;
+  margin-bottom: 45px;
+  display: block;
+}
+
+.flip2 { animation: flip2 6s cubic-bezier(0.23, 1, 0.32, 1.2) infinite; }
+.flip3 { animation: flip3 8s cubic-bezier(0.23, 1, 0.32, 1.2) infinite; }
+
+@keyframes flip2 {
+    0% { margin-top: -180px; }
+    5% { margin-top: -90px;  }
+    50% { margin-top: -90px; }
+    55% { margin-top: 0px; }
+    99.99% { margin-top: 0px; }
+    100% { margin-top: -270px; }
+}
+
+@keyframes flip3 {
+    0% { margin-top: -270px; }
+    5% { margin-top: -180px; }
+    33% { margin-top: -180px; }
+    38% { margin-top: -90px; }
+    66% { margin-top: -90px; }
+    71% { margin-top: 0px; }
+    99.99% { margin-top: 0px; }
+    100% { margin-top: -270px; }
+}
+

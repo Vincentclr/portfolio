@@ -1,0 +1,40 @@
+.navbar-code {
+  color: white;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  height: auto;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+  z-index:1;
+}
+
+.navbar-code h1 {
+  font-family: 'DM Sans', sans-serif;
+  display: flex;
+  align-items: center;
+  margin-left: 24px;
+  text-decoration: none;
+  text-transform:uppercase;
+}
+
+.navbar-code .dropdown-tabs {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 12px;
+}
+
+.navbar-code-name {
+  text-decoration: none;
+  display: flex;
+  color: white;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+
+.navbar-code-name:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+

@@ -11,7 +11,8 @@
 
 .hire-me-iam-fantastic .text {
   font-family: 'DM Sans', sans-serif;
-  margin: 60px;
+  display: flex;
+  justify-content: center;
 }
 
 .text {
@@ -51,6 +52,7 @@
   text-align: justify;
   hyphens: auto;
   width: 200px;
+  font-size: 14px;
 }
 
 .reason-card hr {

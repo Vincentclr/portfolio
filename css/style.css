@@ -8,7 +8,7 @@
 @import url("components/navbar.css");
 @import url("components/word.css");
 @import url("components/dropdown-button.css");
-@import url("code-css/sub-navbar-code.css");
+@import url("code-css/navbar-code.css");
 @import url("code-css/banner-code.css");
 @import url("code-css/project-code.css");
 
@@ -25,4 +25,8 @@ body {
   scroll-behavior: smooth;
   height: 100vh;
   color:white;
+}
+
+p {
+  line-height: 1.7;
 }

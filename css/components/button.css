@@ -3,6 +3,13 @@
   font-size: 18px;
 }
 
+.link-button-hover a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-family: DM Sans, sans-serif;
+}
+
 @-webkit-keyframes hvr-hang {
   0% {
     -webkit-transform: translateY(8px);
