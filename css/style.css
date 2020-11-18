@@ -11,6 +11,8 @@
 @import url("code-css/navbar-code.css");
 @import url("code-css/banner-code.css");
 @import url("code-css/project-code.css");
+@import url("ux-ui-css/project-ux.css");
+@import url("ux-ui-css/banner-ux.css");
 
 * {
   margin: 0;

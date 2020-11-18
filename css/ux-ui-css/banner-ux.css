@@ -1,4 +1,4 @@
-.banner-code {
+.banner-ux {
   height: 450px;
   width: 100%;
   display: flex;
@@ -6,7 +6,7 @@
   align-items: center;
 }
 
-.banner-code .text-code {
+.banner-ux .text-code {
   font-family: 'DM Sans', sans-serif;
   left: -10%;
 }
@@ -113,4 +113,32 @@
     71% { margin-top: 0px; }
     99.99% { margin-top: 0px; }
     100% { margin-top: -270px; }
+}
+
+
+@media screen and (max-width: 950px) {
+  .word-carousel {
+    font-size: 18px;
+  }
+  .word-carousel-list {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .word-carousel {
+    font-size: 15px;
+  }
+  .word-carousel-list {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .word-carousel {
+    font-size: 18px;
+  }
+  .word-carousel-list {
+    font-size: 18px;
+  }
 }

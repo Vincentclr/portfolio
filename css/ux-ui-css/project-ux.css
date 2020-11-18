@@ -1,0 +1,109 @@
+.oishi-project {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-sizing: border-box;
+  margin: 180px auto 90px;
+  position: relative;
+}
+
+
+.oishi-text {
+  font-family: DM Sans, sans-serif;
+  font-size: 14px;
+  overflow: hidden;
+  width: 50%;
+  margin-left: 350px;
+}
+
+.description-project {
+  margin: 12px 0;
+  text-align: justify;
+  hyphens: auto;
+}
+
+.description-project a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+
+.description-project hr {
+  border: solid 1px #FFE23B;
+  width: 70px;
+}
+
+.img-oishi {
+  width: 500px;
+  border-radius: 20px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+#logo-oishi {
+  width: 300px;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 10%;
+}
+
+#more {
+  display: none;
+}
+
+#ui-kit-img {
+  width: 300px;
+  border-radius: 20px;
+  height: auto;
+}
+
+#myBtn {
+  display: flex;
+  margin-top: 20px;
+  border: solid #FFE23B 1px;
+  background-color: transparent;
+  color: white;
+  border-radius: 15px;
+  padding: 8px 16px;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow, transform;
+  transition-property: box-shadow, transform;
+  cursor: pointer;
+  width: 104px;
+}
+
+#visual-id {
+  display: flex;
+  margin: 0 5px;
+}
+
+#visual-id img {
+  height: 250px;
+  width: 300px;
+  margin-right: 12px;
+}
+
+@media screen and (max-width: 850px) {
+  .oishi-text {
+    margin-left: 0;
+    margin-top: 300px;
+    width: 400px;
+  }
+  #logo-oishi {
+  left: 31%;
+  }
+  .arrow {
+    height: 140px;;
+  }
+  .img-oishi {
+    width: 400px;
+  }
+  #visual-id img {
+    height: 205px;
+  }
+}

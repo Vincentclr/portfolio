@@ -132,44 +132,6 @@
   font-size: 30px;
 }
 
-.arrow{
-  position: relative;
-  top: 0%;
-  left: 50%;
-  width: 120px;
-  height: 250px;
-  padding-left: 20px;
-}
-.arrow span{
-    display: block;
-    width: 30px;
-    height: 30px;
-    border-bottom: 5px solid #FFE23B;
-    border-right: 5px solid #FFE23B;
-    transform: rotate(45deg);
-    margin: -10px;
-    animation: animate 2s infinite;
-}
-.arrow span:nth-child(2){
-    animation-delay: -0.2s;
-}
-.arrow span:nth-child(3){
-    animation-delay: -0.4s;
-}
-@keyframes animate {
-    0%{
-        opacity: 0;
-        transform: rotate(45deg) translate(-20px,-20px);
-    }
-    50%{
-        opacity: 1;
-    }
-    100%{
-        opacity: 0;
-        transform: rotate(45deg) translate(20px,20px);
-    }
-}
-
 .word-carousel .word-carousel-list div {
   overflow: hidden;
   position: relative;
