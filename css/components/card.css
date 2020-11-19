@@ -84,4 +84,20 @@
     display: flex;
     justify-content: center;
   }
+  .wrapper:before {
+  --bw: 2px;
+    grid-area: 1 / 1;
+    content: '';
+    backface-visibility: hidden;
+    height: 100%;
+    width: 100%;
+    margin-top: calc(-1 * var(--bw));
+    margin-left: calc(-1 * var(--bw));
+    background: transparent;
+    transform: translateX(0px) rotateY(0deg) rotateX(0deg) scale(1);
+    pointer-events: none;
+    border: var(--bw) solid rgb(255,226,59);
+    border-radius: 20px;
+    box-sizing: content-box;
+  }
 }

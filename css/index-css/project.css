@@ -90,4 +90,7 @@
   .project-description p {
     width: 383px;
   }
+  .project-container h4 {
+    display: none;
+  }
 }

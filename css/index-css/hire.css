@@ -53,6 +53,7 @@
   font-family: 'DM Sans', sans-serif;
   text-align: justify;
   hyphens: auto;
+  text-justify: distribute;
   width: 200px;
   font-size: 14px;
 }
@@ -83,6 +84,6 @@
     font-size: 14px;
   }
   .text {
-    left: -30%;
+    left: -15%;
   }
 }
