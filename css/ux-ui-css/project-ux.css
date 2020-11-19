@@ -100,6 +100,12 @@
   text-transform: uppercase;
 }
 
+#more-two h4 {
+  color: #FFE23B;
+  font-family: 'DM SANS';
+  text-transform: uppercase;
+}
+
 #ui-kit-img {
   width: 300px;
   border-radius: 20px;
@@ -155,7 +161,15 @@
     margin-top: 300px;
     width: 400px;
   }
+  .skatrr-text {
+    margin-left: 0;
+    margin-top: 300px;
+    width: 400px;
+  }
   #logo-oishi {
+  left: 31%;
+  }
+  #logo-skatrr {
   left: 31%;
   }
   .arrow {

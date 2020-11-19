@@ -7,6 +7,7 @@
   align-items: center;
   box-sizing: border-box;
   margin: 180px auto 90px;
+  position: relative;
 }
 
 .ruby-code-project img {
@@ -60,6 +61,7 @@
   align-items: center;
   box-sizing: border-box;
   margin: 90px auto 90px;
+  position: relative;
 }
 
 .react-code-project img {
@@ -172,5 +174,82 @@
     71% { margin-top: 0px; }
     99.99% { margin-top: 0px; }
     100% { margin-top: -270px; }
+}
+
+.github-pages-button {
+  padding: 20px;
+}
+
+.github-pages-button a {
+  text-decoration: none;
+}
+
+.github-pages-button  p {
+  border: solid #FFE23B 1px;
+  border-radius: 15px;
+  padding: 8px 12px;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow, transform;
+  transition-property: box-shadow, transform;
+  color: white;
+  text-decoration: none;
+  width: 200px;
+  text-align: center;
+  margin-bottom: 12px;
+  margin-left: 140px;
+
+}
+
+.github-pages-button p:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.skill h3 {
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 850px) {
+ .ruby-code-project {
+  display: block;
+  margin: 0px auto 90px;
+ }
+ .ruby-code-project img {
+  position: absolute;
+  left: 32%;
+  top: 0%;
+ }
+ .ruby-project-text {
+  width: 60%;
+  margin: 330px auto 0;
+ }
+ .react-code-project {
+  display: block;
+ }
+ .react-code-project img {
+  position: absolute;
+  left: 32%;
+  top: 0%;
+ }
+ .react-project-text {
+  width: 60%;
+  margin: 330px auto 0;
+ }
+ .css-animations {
+  display: block;
+ }
+ .animations-text {
+  width: 60%;
+  margin: 0 auto;
+ }
+ .logo-animations {
+  width: 70%;
+  margin: 0 auto 50px;
+ }
+ .github-pages-button {
+  padding-top: 30px;
+  padding-bottom: 20px;
+ }
 }
 
