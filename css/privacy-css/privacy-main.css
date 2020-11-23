@@ -1,0 +1,18 @@
+.privacy-content {
+  width: 72%;
+  margin: 40px auto;
+  text-align: justify;
+  hyphens: auto;
+}
+
+.privacy-content h3 {
+  font-family: 'DM SANS';
+  color: #FFE23B;
+}
+
+.privacy-content p {
+  font-family: 'DM SANS';
+  color: white;
+  padding: 20px 0;
+}
+

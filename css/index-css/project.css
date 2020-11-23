@@ -38,6 +38,7 @@
 .project-description {
   text-align: justify;
   hyphens: auto;
+  overflow: hidden;
 }
 
 .project-description hr {
@@ -54,6 +55,7 @@
   color: white;
   margin: 20px;
   font-size: 14px;
+  overflow: hidden;
 }
 
 .project-description a {
@@ -89,6 +91,26 @@
   }
   .project-description p {
     width: 383px;
+  }
+  .project-container h4 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 550px) {
+/* start of phone styles */
+  .project-one {
+    height: 757px;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  .project-two {
+    height: 828px;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  .project-description p {
+    width: 270px;
   }
   .project-container h4 {
     display: none;

@@ -116,29 +116,90 @@
 }
 
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 375px) {
   .word-carousel {
-    font-size: 18px;
+    font-size: 11px;
+    margin-left: 18px;
   }
   .word-carousel-list {
+    font-size: 11px;
+  }
+  .ruby-code-project img {
+    left: 14%;
+  }
+  .ruby-project-text {
+    width: 80%;
+  }
+  .description-project {
+    width: 100%;
+  }
+  .react-code-project img {
+    left: 14%;
+  }
+  .react-project-text {
+    width: 80%;
+  }
+  .animations-text {
+    width: 80%;
+  }
+  .link-button-hover a {
+    font-size: 18px;
+  }
+  .github-pages-button p {
+    margin-left: 8%;
+  }
+  .skill-tag {
+    margin-right: 0;
+  }
+  #logo-oishi {
+    left: 14%;
+  }
+  .oishi-text {
+    width: 80%;
+  }
+  #logo-skatrr {
+    left: 10%;
+  }
+  .skatrr-text {
+    width: 80%;
+  }
+  .oishi-project {
+    margin: -36px auto -104px;
+  }
+  .privacy-content {
+    width: 80%;
+  }
+  .about-img img {
+    width: 246px;
+    height: auto;
+  }
+   .link-button-hover a {
+    font-size: 42px;
+  }
+  #cookies button {
+    margin-right: 20px;
+  }
+  .project-description hr {
+    width: 272px;
+    margin-bottom: 120px;
+  }
+  .project-one hr {
+    display: none;
+  }
+  .banner-code {
+    height: 400px;
+  }
+  .banner-ux {
+    height: 400px;
+  }
+  .code-projects .link-button-hover a {
+    font-size: 18px;
+  }
+  .css-animations .link-button-hover a {
     font-size: 18px;
   }
 }
 
-@media screen and (max-width: 850px) {
-  .word-carousel {
-    font-size: 15px;
-  }
-  .word-carousel-list {
-    font-size: 15px;
-  }
-}
 
-@media screen and (max-width: 950px) {
-  .word-carousel {
-    font-size: 18px;
-  }
-  .word-carousel-list {
-    font-size: 18px;
-  }
-}
+
+

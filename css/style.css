@@ -3,6 +3,7 @@
 @import url("index-css/project.css");
 @import url("index-css/hire.css");
 @import url("components/button.css");
+@import url("components/cookies.css");
 @import url("components/card.css");
 @import url("components/footer.css");
 @import url("components/navbar.css");
@@ -13,12 +14,14 @@
 @import url("code-css/project-code.css");
 @import url("ux-ui-css/project-ux.css");
 @import url("ux-ui-css/banner-ux.css");
+@import url("privacy-css/privacy-main.css");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   overflow-x: hidden;
+  overflow: auto;
 }
 
 body {

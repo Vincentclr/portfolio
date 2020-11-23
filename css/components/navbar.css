@@ -8,7 +8,7 @@
   position: sticky;
   top: 0;
   overflow: hidden;
-  z-index:2;
+  z-index:3;
 }
 
 .navbar h1 {
@@ -100,4 +100,64 @@
     width: 300px;
   }
 
+}
+
+@media screen and (max-width: 375px) {
+/* start of phone styles */
+  .navbar h1 {
+    font-size: 15px;
+    width: 100%;
+  }
+  .navbar-tabs {
+    width: 250px;
+    font-size: 10px;
+  }
+  .project-description .link-button-hover a {
+    font-size: 17px;
+  }
+  .about-description {
+    width: 80%;
+    font-size: 14px;
+  }
+  .reason-cards {
+    height: 600px;
+  }
+  .reason-card p {
+    overflow: hidden;
+    margin: 0;
+    width: 100%;
+  }
+  .banner h1 {
+    font-size: 60px;
+  }
+  .wrapper {
+    overflow: hidden;
+  }
+  .text {
+    font-size: 22px;
+  }
+  .banner {
+    min-height: 75vh;
+  }
+  .project-two {
+    height: 575px;
+  }
+  #cookies h5 {
+    padding: 25px;
+  }
+  .word-carousel {
+    font-size: 12px;
+  }
+  .word-carousel-list {
+    font-size: 12px;
+  }
+  .ruby-code-project img {
+    left: 14%;
+  }
+  .navbar-tabs li {
+    padding: 16px;
+  }
+  .privacy-content p {
+    font-size: 12px;
+  }
 }
