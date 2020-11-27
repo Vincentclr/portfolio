@@ -54,13 +54,13 @@
   position: relative;
   color: white;
   margin: 20px;
-  font-size: 14px;
+  font-size: 16px;
   overflow: hidden;
 }
 
 .project-description a {
   text-decoration: none;
-  color: white;
+  color:#FFE23B;
   margin-top: 30px;
   margin-left: 60px;
   font-family: 'DM SANS';
@@ -70,11 +70,58 @@
 .project-description h3 {
   margin-left: 20px;
   margin-top: 10px;
+  color:#FFE23B;
 }
 
-@media screen and (max-width: 767px) {
-/* start of medium tablet styles */
+.project-container-mobile {
+  width: 70%;
+  margin: 80px auto;
+  display: none;
+}
 
+.project-container-mobile h1 {
+  text-transform: uppercase;
+  text-align: center;
+  height: 160px;
+  font-size: 80px;
+}
+
+.project-container-mobile a {
+  text-decoration: none;
+  color: white;
+  font-family: 'DM SANS';
+  font-size: 24px;
+}
+
+.project-one-mobile p {
+  font-family: 'DM SANS';
+  font-size: 14px;
+  text-align: justify;
+  hyphens: auto;
+}
+
+.project-two-mobile p {
+  font-family: 'DM SANS';
+  font-size: 14px;
+  text-align: justify;
+  hyphens: auto;
+}
+
+.project-two-mobile h1 {
+  margin-top: 80px;
+}
+
+.project-one-mobile h3 {
+  font-size: 18px;
+}
+
+.enclosed {
+  background: white;
+  line-height: 1;
+  color: black;
+  transform: translate(-1px, 1px) scale(0.75);
+  transform-origin: right center;
+  font-size: 16px;
 }
 
 @media screen and (max-width: 850px) {
@@ -98,7 +145,6 @@
 }
 
 @media screen and (max-width: 550px) {
-/* start of phone styles */
   .project-one {
     height: 757px;
     flex-direction: column;
@@ -116,3 +162,4 @@
     display: none;
   }
 }
+

@@ -58,14 +58,14 @@
 }
 
 .about-description p {
- overflow: hidden;
+  overflow: hidden;
+  margin-bottom: -10px;
 }
 
-
-@media screen and (max-width: 560px) {
-/* start of medium tablet styles */
-
+.about-description #download-cv {
+  font-size: 22px;
 }
+
 
 @media screen and (max-width: 850px) {
 /* start of phone styles */
@@ -76,7 +76,7 @@
     flex-direction: column;
   }
   .about-description {
-    width: 270px;
+    width: 70%;
     padding-top: 40px;
     height: 630;
   }
@@ -89,10 +89,16 @@
   }
   .about-content {
     flex-direction: column;
+    height: 1100px;
   }
   .about-description {
-    width: 270px;
+    width: 70%;
     padding-top: 40px;
-    height: 630;
+  }
+  .about-content img {
+    overflow: hidden;
+  }
+  .about-img {
+    overflow: hidden;
   }
 }

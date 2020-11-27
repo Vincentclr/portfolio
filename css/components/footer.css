@@ -12,7 +12,8 @@
 
 .contact a {
   text-decoration: none;
-  color: #494949;
+  color: black;
+  margin: 0 10px;
 }
 
 .contact a:hover {
@@ -28,9 +29,11 @@
 
 .social {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
   width: 200px;
-  margin-top: 20px;
+  font-size: 36px;
+  height: 50px;
 }
 
 .social p {

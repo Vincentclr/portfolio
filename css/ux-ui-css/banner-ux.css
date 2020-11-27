@@ -173,7 +173,7 @@
     width: 246px;
     height: auto;
   }
-   .link-button-hover a {
+  .link-button-hover a {
     font-size: 42px;
   }
   #cookies button {
@@ -197,6 +197,21 @@
   }
   .css-animations .link-button-hover a {
     font-size: 18px;
+  }
+  .about-description {
+    height: 680px;
+  }
+  .project-container-mobile {
+    display: block;
+  }
+  .project-container {
+    display: none;
+  }
+  .navbar-tabs {
+    font-size: 11px;
+  }
+  .about {
+    overflow: hidden;
   }
 }
 

@@ -39,7 +39,7 @@
   align-items: center;
   width: 380px;
   font-family: 'DM Sans', sans-serif;
-  font-size: 12px;
+  font-size: 16px;
 }
 
 .navbar-tabs .navbar-tab {
@@ -106,7 +106,7 @@
 /* start of phone styles */
   .navbar h1 {
     font-size: 15px;
-    width: 100%;
+    width: 120px;
   }
   .navbar-tabs {
     width: 250px;
@@ -120,15 +120,17 @@
     font-size: 14px;
   }
   .reason-cards {
-    height: 600px;
+    height: 620px;
   }
   .reason-card p {
     overflow: hidden;
     margin: 0;
     width: 100%;
+    font-size: 14px;
   }
   .banner h1 {
     font-size: 60px;
+    height: 300px;
   }
   .wrapper {
     overflow: hidden;
@@ -138,6 +140,8 @@
   }
   .banner {
     min-height: 75vh;
+    text-align: center;
+    overflow: hidden;
   }
   .project-two {
     height: 575px;
@@ -159,5 +163,9 @@
   }
   .privacy-content p {
     font-size: 12px;
+  }
+  .hire-me-iam-fantastic {
+    height: 850px;
+    overflow: hidden;
   }
 }

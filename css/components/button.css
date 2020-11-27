@@ -4,6 +4,10 @@
   overflow: hidden;
 }
 
+.link-button-hover h1 {
+  height: 120px;
+}
+
 .link-button-hover a {
   text-decoration: none;
   color: white;
@@ -11,9 +15,9 @@
   font-family: DM Sans, sans-serif;
 }
 
-.link-button-hover h1 {
+/*.link-button-hover h1 {
   overflow: hidden;
-}
+}*/
 
 @-webkit-keyframes hvr-hang {
   0% {

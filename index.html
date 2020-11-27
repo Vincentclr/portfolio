@@ -4,7 +4,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Vincent Clair - Portfolio</title>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet/scss" type="text/css" href="scss/application.scss">
   <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;600&family=Abril+Fatface&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
   <link rel=icon href="img/favicon.png">
 </head>
 
@@ -21,22 +23,29 @@
           <a class="navbar-tab active" href=""></a>
         </li>
         <li>
-          <a class="navbar-tab" href="#nav-project">Projects</a>
-        </li>
-        <li>
           <a class="navbar-tab" href="#nav-about">About</a>
         </li>
+        <li>
+          <a class="navbar-tab" href="#nav-project">Projects</a>
+        </li>
       </ul>
-          <a class="navbar-button" href="mailto:vincentclair@hotmail.fr">Contact</a>
+          <a class="navbar-button" href="mailto:vincentclair@hotmail.fr"><i class="fas fa-paper-plane"></i></a>
     </div>
   </div>
 
 
 <!-- BANNER SECTION -->
 
-  <div class="banner" id="navbar-title">
+  <!-- <div class="banner" id="navbar-title">
     <h1>Hi, I'm Vincent <br> welcome!</h1>
     <div class="overlay"></div>
+  </div>
+ -->
+  <div class="banner">
+    <h1 class="home-title">
+      <span>Hi, I'm Vincent</span>
+      <span>welcome!</span>
+    </h1>
   </div>
 
 <!-- PROJECT SECTION -->
@@ -56,7 +65,7 @@
         </div>
       <div class="project-description">
         <hr>
-        <p>I started learning code in summer 2020. <br> <br> I did in Le Wagon bootcamp basis of web programmation, from back-end to front-end.<br><br>Working in a developer team with versioning tools and effective communication was really interesting and now I can apply it into future projects.<br><br>For the moment I am focused on front-end development. I work on side projects to improve my JavaScript and ReactJS skills.</p>
+  <p>I started learning code in summer 2020.<br><br>Le Wagon bootcamp provided me better understanding of developer tools and effective communication that I can apply into team projects.<br><br>I have been hired by Le Wagon as a Teacher Assistant for front-end lectures at EHL and Les Roches hospitality schools.</p>
         <div class="link-button-hover">
           <a href="https://github.com/Vincentclr?tab=repositories" target="_blank">
             <h3>View all GitHub repositories</h3>
@@ -65,13 +74,11 @@
       </div>
     </div>
 
-    <h4>Hover to restructure and click to see the projects</h4>
-
 <!-- PROJECT SECTION 2 -->
     <div class="project-two">
       <div class="project-description">
         <hr>
-        <p>I feel deeply enthousiast by creating aesthetic web designs and nice experiences for users.   <br> <br> I have started to explore and learn by myself core concepts of UX/UI Design. Programming also makes me being more realistic and simple when working on design projects and thinking about user features. <br> <br> I am currently working on designing an app that I had in mind a long time ago: Skatrr</p>
+        <p>I feel deeply enthousiast by creating aesthetic web designs and nice experiences for users.   <br> <br> I have started to explore and learn by myself core concepts of UX/UI Design. Programming also makes me being more realistic and simple when working on design projects and thinking about user features.<br><br> I am working side projects. One of them is to design an app that target skater community.</p>
       </div>
       <div class="wrapper">
         <div class="card">
@@ -87,6 +94,28 @@
     </div>
   </div>
 
+<!-- PROJECT MOBILE DEVICE -->
+
+<div class="project-container-mobile">
+  <div class="project-one-mobile">
+    <a href="pages/code.html">
+      <h1>
+        Code <br><span class="enclosed">projects</span>
+      </h1>
+    </a>
+    <p>I started learning code in summer 2020.<br><br>Le Wagon bootcamp provided me better understanding of developer tools and effective communication that I can apply into team projects.<br><br> I have been hired by Le Wagon as a Teacher Assistant for front-end lectures at EHL and Les Roches hospitality schools.</p>
+  </div>
+
+  <div class="project-two-mobile">
+    <a href="pages/ux-ui.html">
+      <h1>
+        UX/UI<br><span class="enclosed">projects</span>
+      </h1>
+    </a>
+    <p>I feel deeply enthousiast by creating aesthetic web designs and nice experiences for users.   <br> <br> I have started to explore and learn by myself core concepts of UX/UI Design. Programming also makes me being more realistic and simple when working on design projects and thinking about user features. <br> <br> I am currently working on designing an app that I had in mind a long time ago: Skatrr</p>
+  </div>
+</div>
+
 <!-- ABOUT SECTION -->
 
   <div class="about" id="nav-about">
@@ -96,11 +125,7 @@
       </div>
       <div class="about-description" >
         <p>My name is Vincent, a french young man freshly graduated. My ambitions are to start my own business companies. I appreciate every form of creation, from company to art. What I like in the creation process is the excitment, the energy to give a form and direction to an idea and grow with it. <br><br> Now, I feel like I need more experience first. I am seeking jobs in project development or product management in a dynamic environment, but also in web development and web design. <br><br>If some of you are familiar with Japanese culture and the 5 Ikigaï pillars (which I recommend you to apply on your daily life), one of them is to “start small”. I know everyone need to start somewhere, somehow. I would be pleased to be part of a project or responsible for it. <br><br> If you are looking for a nice team-player and eager to learn, <a href="https://www.linkedin.com/in/vincent-clair-2398a5136/" target="_blank">get in touch!</a></p>
-        <div class="link-button-hover">
-          <a href="img/vincent-clair-curriculum-vitae.png" download="Vincent Clair CV">
-            <h3>Download CV</h3>
-          </a>
-        </div>
+        <a href="img/cv-vincent-clair.png" download="CV Vincent Clair"><p id="download-cv">Download CV <i class="fas fa-download"></i></p></a>
       </div>
     </div>
   </div>
@@ -122,17 +147,17 @@
       <div class="reason-card">
         <hr>
         <h3>Business oriented</h3>
-        <p>The condition for a company to have a real impact on society is to survive on its environnement. I always proritize decisions which could improve the most projects.</p>
+        <p>In my opinion, every company need to have sustainable and viable financial health in order to have a better impact on our society. I always proritize decisions which could improve the most projects.</p>
       </div>
       <div class="reason-card">
         <hr>
         <h3>Technically Curious</h3>
-        <p>I am a very curious person and an avid learner. As trends and technologies changes, it is very important to keep learning constantly. I consider technical tools as levers for my creativity</p>
+        <p>I am a very curious person and an avid learner. As trends and technologies changes, I keep learning constantly. Technological tools are levers for my creativity.</p>
       </div>
       <div class="reason-card">
         <hr>
         <h3>Human Being</h3>
-        <p>Probably the most significant aspect. It is the passion that drives us, the emotion that brings us together and the values that unite us. I focus on this proximity, this synergy.</p>
+        <p>I truly believe that it is the passion that drives us, the emotion that brings us together and the values that unite us. I focus on this proximity, this synergy.</p>
       </div>
     </div>
   </div>
@@ -142,10 +167,10 @@
   <div class="contact">
     <div class="social">
       <a href="https://www.linkedin.com/in/vincent-clair-2398a5136/" target="_blank">
-        <p>LinkedIn</p>
+        <i class="fab fa-linkedin"></i>
       </a>
       <a href="https://github.com/Vincentclr" target="_blank">
-        <p>GitHub</p>
+        <i class="fab fa-github"></i>
       </a>
     </div>
     <a href="../pages/privacy.html"><p>Privacy Policy</p></a>

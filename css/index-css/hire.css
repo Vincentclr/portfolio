@@ -42,6 +42,7 @@
 
 .reason-card {
   font-family: 'DM Sans', sans-serif;
+  font-size: 0;
 }
 
 .reason-card h3 {
@@ -55,7 +56,7 @@
   hyphens: auto;
   text-justify: distribute;
   width: 200px;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .reason-card hr {
@@ -81,7 +82,9 @@
   }
   .reason-card p {
     width: 383px;
-    font-size: 14px;
+    font-size: 16px;
+    text-align: justify;
+    hyphens: auto;
   }
   .text {
     left: -15%;
